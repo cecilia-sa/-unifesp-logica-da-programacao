@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main() 
+{
+   double A,raio;
+   scanf("%lf" ,&raio);
+   A = 3.14159*(raio*raio);
+   printf("A= %.4f" ,A);
+ 
+    return 0;
+}
