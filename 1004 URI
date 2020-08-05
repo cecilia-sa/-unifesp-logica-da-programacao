@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main() 
+{   
+    int PROD,variavel1,variavel2;
+    scanf("%d" ,&variavel1);
+    scanf("%d" ,&variavel2);
+    PROD=variavel1*variavel2;
+    printf("PROD = %d" ,PROD);
+    return 0;
+}
