@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double a, b, c, r1, r2, d;
+    scanf("%lf" ,&a);
+    scanf("%lf" ,&b);
+    scanf("%lf" ,&c);
+    
+    if (((b*b)-4*a*c)<0||a==0){ 
+	  printf("Impossivel calcular\n");
+    }
+    else{
+      d= sqrt((b*b)-4*a*c);
+      r1= (-b+d)/(2*a);
+      r2 = (-b-d)/(2*a);
+      printf("R1 = %.5lf\n" ,r1); 
+      printf("R2 = %.5lf\n" ,r2);
+	}
+    return 0;
+}
