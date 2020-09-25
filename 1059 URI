@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+      int n = 100,x;
+        for(x=2; x<=n; x=x+2)
+        {
+          printf("%d\n",x);
+        }
+ 
+    return 0;
+}
