@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double t,v,c;
+    scanf ("%lf" ,&t);
+    scanf("%lf" ,&v);
+    c=v*t/12;
+    printf("%.3lf\n" ,c);
+ 
+    return 0;
+}
