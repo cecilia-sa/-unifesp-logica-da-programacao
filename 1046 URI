@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int i,f,t;
+    scanf("%d %d",&i,&f);
+    t=24-i+f;
+    if (t >24)
+    printf("O JOGO DUROU %d HORA(S)\n",t-24);
+    else
+    printf("O JOGO DUROU %d HORA(S)\n",t);
+
+    return 0;
+}
