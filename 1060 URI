@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+float n;
+int v,c;
+for(c=1; c<=6; c++)
+{
+ scanf("%f",&n);
+ if(n>=0)
+{   
+  v=v+1;
+  }
+ }
+    printf("%d valores positivos\n",v);
+
+    return 0;
+}
