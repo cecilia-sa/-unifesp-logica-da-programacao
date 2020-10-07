@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main() {
+
+int v,t,cem,cinq,vin,dez,cin,dois,um;
+scanf("%d",&v);
+t=v;
+cem=t/100;
+t=t-(cem*100);
+cinq=t/50;
+t=t-(cinq*50);
+vin=t/20;
+t=t-(vin*20);
+dez=t/10;
+t=t-(dez*10);
+cin=t/5;
+t=t-(cin*5);
+dois=t/2;
+t=t-(dois*2);
+printf("%d\n",v);
+printf("%d nota(s) de R$ 100,00\n",cem);
+printf("%d nota(s) de R$ 50,00\n",cinq);
+printf("%d nota(s) de R$ 20,00\n",vin);
+printf("%d nota(s) de R$ 10,00\n",dez);
+printf("%d nota(s) de R$ 5,00\n",cin);
+printf("%d nota(s) de R$ 2,00\n",dois);
+printf("%d nota(s) de R$ 1,00\n",t);
+
+return 0;
+
+}
