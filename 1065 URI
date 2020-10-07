@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+ int n1,n,c;
+  c=0;
+    for(n1=1;n1<=5;n1++){
+        scanf("%d",&n);
+        if(n%2==0)
+            c++;
+    }
+    printf("%d valores pares\n",c);
+
+    return 0;
+}
