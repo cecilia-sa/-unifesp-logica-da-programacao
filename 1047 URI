@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int hi, f, mi, mf, toth, totm;
+    scanf("%d %d %d %d", &hi, &mi, &f, &mf);
+    toth=f-hi;
+    if (toth < 0)
+    {
+        toth = 24 + (f - hi);
+    }
+
+ totm = mf - mi;
+ if (totm < 0)
+
+  {
+   totm = 60 + (mf - mi);
+   toth--;
+  }
+
+    if (hi == f && mi == mf)
+
+    {
+        printf("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)\n");
+    }
+    else printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", toth, totm);
+    return 0;
+}
