@@ -1,0 +1,28 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int c,n1,n2,t,s;
+    while(scanf("%d%d",&n1,&n2)==2){
+        soma=0;
+        if(n1>n2){
+            t=n1;
+            n1=n2;
+            n2=t;
+        }
+        if(n1%2!=0){
+        for(c=n1+2;c<n2;c++){
+            if(c%2!=0)
+                s+=c;
+            }
+        }
+        else{
+            for(c=n1+1;c<n2;c++){
+            if(c%2!=0)
+                s+=c;
+            }
+        }
+        printf("%d\n",s);
+    }
+    return 0;
+}
